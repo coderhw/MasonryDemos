@@ -6,11 +6,14 @@
 //  Copyright © 2019 com. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "HHMainViewController.h"
 #import <Masonry.h>
 #import "HHContentCell.h"
 
-@interface ViewController ()<UITableViewDelegate, UITableViewDataSource>
+//VC
+#import "HHCase1ViewController.h"
+
+@interface HHMainViewController ()<UITableViewDelegate, UITableViewDataSource>
 
 @property (nonatomic, strong) UITableView *tableView;
 @property (nonatomic, strong) NSArray *datasource1;
@@ -18,14 +21,14 @@
 
 @end
 
-@implementation ViewController
+@implementation HHMainViewController
 
 - (void)viewDidLoad {
 
     [super viewDidLoad];
     self.navigationItem.title = @"Masonry";
-    [self.view addSubview:self.tableView];
     
+    [self.view addSubview:self.tableView];
     [self.tableView registerClass:[HHContentCell class] forCellReuseIdentifier:@"HHContentCellID"];
     
     [self addConstrains];
@@ -60,6 +63,13 @@
     cell.contentLabel.text = self.datasource2[indexPath.row];
 
     return cell;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    
+    HHCase1ViewController *case1VC = [[HHCase1ViewController alloc] init];
+    [self.navigationController pushViewController:case1VC animated:YES];
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {

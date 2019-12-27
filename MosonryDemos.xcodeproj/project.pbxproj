@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		646955BA23B49C29001473A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 646955B923B49C29001473A1 /* AppDelegate.m */; };
-		646955BD23B49C29001473A1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 646955BC23B49C29001473A1 /* ViewController.m */; };
+		646955BD23B49C29001473A1 /* HHMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 646955BC23B49C29001473A1 /* HHMainViewController.m */; };
 		646955C023B49C29001473A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 646955BE23B49C29001473A1 /* Main.storyboard */; };
 		646955C223B49C2A001473A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 646955C123B49C2A001473A1 /* Assets.xcassets */; };
 		646955C523B49C2A001473A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 646955C323B49C2A001473A1 /* LaunchScreen.storyboard */; };
 		646955C823B49C2A001473A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 646955C723B49C2A001473A1 /* main.m */; };
 		646955D023B4ACF1001473A1 /* HHContentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 646955CF23B4ACF1001473A1 /* HHContentCell.m */; };
+		646955D323B5A204001473A1 /* HHViewBriefController.m in Sources */ = {isa = PBXBuildFile; fileRef = 646955D223B5A204001473A1 /* HHViewBriefController.m */; };
+		646955D723B5A30A001473A1 /* HHBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 646955D623B5A30A001473A1 /* HHBaseViewController.m */; };
+		646955DD23B5A509001473A1 /* HHCase1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 646955DC23B5A509001473A1 /* HHCase1ViewController.m */; };
 		6CE1E36320F8B024034A650B /* libPods-MosonryDemos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A313457ADFC609E9993A81AB /* libPods-MosonryDemos.a */; };
 /* End PBXBuildFile section */
 
@@ -21,8 +24,8 @@
 		646955B523B49C29001473A1 /* MosonryDemos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MosonryDemos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		646955B823B49C29001473A1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		646955B923B49C29001473A1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		646955BB23B49C29001473A1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		646955BC23B49C29001473A1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		646955BB23B49C29001473A1 /* HHMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHMainViewController.h; sourceTree = "<group>"; };
+		646955BC23B49C29001473A1 /* HHMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHMainViewController.m; sourceTree = "<group>"; };
 		646955BF23B49C29001473A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		646955C123B49C2A001473A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		646955C423B49C2A001473A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -30,6 +33,12 @@
 		646955C723B49C2A001473A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		646955CE23B4ACF1001473A1 /* HHContentCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHContentCell.h; sourceTree = "<group>"; };
 		646955CF23B4ACF1001473A1 /* HHContentCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHContentCell.m; sourceTree = "<group>"; };
+		646955D123B5A204001473A1 /* HHViewBriefController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHViewBriefController.h; sourceTree = "<group>"; };
+		646955D223B5A204001473A1 /* HHViewBriefController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHViewBriefController.m; sourceTree = "<group>"; };
+		646955D523B5A30A001473A1 /* HHBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHBaseViewController.h; sourceTree = "<group>"; };
+		646955D623B5A30A001473A1 /* HHBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHBaseViewController.m; sourceTree = "<group>"; };
+		646955DB23B5A509001473A1 /* HHCase1ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHCase1ViewController.h; sourceTree = "<group>"; };
+		646955DC23B5A509001473A1 /* HHCase1ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHCase1ViewController.m; sourceTree = "<group>"; };
 		9FD6FA2148068D2E4728DACE /* Pods-MosonryDemos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MosonryDemos.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MosonryDemos/Pods-MosonryDemos.debug.xcconfig"; sourceTree = "<group>"; };
 		A313457ADFC609E9993A81AB /* libPods-MosonryDemos.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MosonryDemos.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBFD214EF6483B34A4B8EE6F /* Pods-MosonryDemos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MosonryDemos.release.xcconfig"; path = "Pods/Target Support Files/Pods-MosonryDemos/Pods-MosonryDemos.release.xcconfig"; sourceTree = "<group>"; };
@@ -78,10 +87,13 @@
 			children = (
 				646955B823B49C29001473A1 /* AppDelegate.h */,
 				646955B923B49C29001473A1 /* AppDelegate.m */,
-				646955BB23B49C29001473A1 /* ViewController.h */,
-				646955BC23B49C29001473A1 /* ViewController.m */,
-				646955CE23B4ACF1001473A1 /* HHContentCell.h */,
-				646955CF23B4ACF1001473A1 /* HHContentCell.m */,
+				646955BB23B49C29001473A1 /* HHMainViewController.h */,
+				646955BC23B49C29001473A1 /* HHMainViewController.m */,
+				646955D123B5A204001473A1 /* HHViewBriefController.h */,
+				646955D223B5A204001473A1 /* HHViewBriefController.m */,
+				646955D923B5A4E7001473A1 /* VIewControllers */,
+				646955D823B5A4AF001473A1 /* Base */,
+				646955D423B5A236001473A1 /* UITableViewCells */,
 				646955BE23B49C29001473A1 /* Main.storyboard */,
 				646955C123B49C2A001473A1 /* Assets.xcassets */,
 				646955C323B49C2A001473A1 /* LaunchScreen.storyboard */,
@@ -89,6 +101,41 @@
 				646955C723B49C2A001473A1 /* main.m */,
 			);
 			path = MosonryDemos;
+			sourceTree = "<group>";
+		};
+		646955D423B5A236001473A1 /* UITableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				646955CE23B4ACF1001473A1 /* HHContentCell.h */,
+				646955CF23B4ACF1001473A1 /* HHContentCell.m */,
+			);
+			path = UITableViewCells;
+			sourceTree = "<group>";
+		};
+		646955D823B5A4AF001473A1 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				646955D523B5A30A001473A1 /* HHBaseViewController.h */,
+				646955D623B5A30A001473A1 /* HHBaseViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		646955D923B5A4E7001473A1 /* VIewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				646955DA23B5A4F0001473A1 /* Masonry */,
+			);
+			path = VIewControllers;
+			sourceTree = "<group>";
+		};
+		646955DA23B5A4F0001473A1 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				646955DB23B5A509001473A1 /* HHCase1ViewController.h */,
+				646955DC23B5A509001473A1 /* HHCase1ViewController.m */,
+			);
+			path = Masonry;
 			sourceTree = "<group>";
 		};
 		7941661233BF2837924B61F7 /* Pods */ = {
@@ -192,9 +239,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				646955BD23B49C29001473A1 /* ViewController.m in Sources */,
+				646955BD23B49C29001473A1 /* HHMainViewController.m in Sources */,
+				646955D723B5A30A001473A1 /* HHBaseViewController.m in Sources */,
 				646955D023B4ACF1001473A1 /* HHContentCell.m in Sources */,
+				646955DD23B5A509001473A1 /* HHCase1ViewController.m in Sources */,
 				646955C823B49C2A001473A1 /* main.m in Sources */,
+				646955D323B5A204001473A1 /* HHViewBriefController.m in Sources */,
 				646955BA23B49C29001473A1 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,7 +322,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -325,7 +375,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
