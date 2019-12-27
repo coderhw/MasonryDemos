@@ -48,8 +48,18 @@
 - (void)addConstrains {
     
     [self.tableView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.top.equalTo(self.mas_topLayoutGuide);
-        make.bottom.equalTo(self.mas_bottomLayoutGuide);
+        if(@available(iOS 11.0, *)){
+            make.top.equalTo(self.view.mas_safeAreaLayoutGuideTop);
+        } else {
+            make.top.equalTo(self.mas_topLayoutGuide);
+        }
+        
+        if(@available(iOS 11.0, *)){
+            make.bottom.equalTo(self.view.mas_safeAreaLayoutGuideBottom);
+            
+        } else {
+            make.bottom.equalTo(self.mas_bottomLayoutGuide);
+        }
         make.left.and.right.equalTo(self.view);
     }];
 }
