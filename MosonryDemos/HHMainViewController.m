@@ -12,6 +12,7 @@
 
 //VC
 #import "HHCase1ViewController.h"
+#import "HHCase2ViewController.h"
 
 @interface HHMainViewController ()<UITableViewDelegate, UITableViewDataSource>
 

@@ -17,6 +17,8 @@
 		646955D323B5A204001473A1 /* HHViewBriefController.m in Sources */ = {isa = PBXBuildFile; fileRef = 646955D223B5A204001473A1 /* HHViewBriefController.m */; };
 		646955D723B5A30A001473A1 /* HHBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 646955D623B5A30A001473A1 /* HHBaseViewController.m */; };
 		646955DD23B5A509001473A1 /* HHCase1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 646955DC23B5A509001473A1 /* HHCase1ViewController.m */; };
+		64989C9F23CD8C6B00E4C9E7 /* HHCase2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64989C9D23CD8C6B00E4C9E7 /* HHCase2ViewController.m */; };
+		64989CA023CD8C6B00E4C9E7 /* HHCase2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64989C9E23CD8C6B00E4C9E7 /* HHCase2ViewController.xib */; };
 		6CE1E36320F8B024034A650B /* libPods-MosonryDemos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A313457ADFC609E9993A81AB /* libPods-MosonryDemos.a */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +41,9 @@
 		646955D623B5A30A001473A1 /* HHBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHBaseViewController.m; sourceTree = "<group>"; };
 		646955DB23B5A509001473A1 /* HHCase1ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHCase1ViewController.h; sourceTree = "<group>"; };
 		646955DC23B5A509001473A1 /* HHCase1ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHCase1ViewController.m; sourceTree = "<group>"; };
+		64989C9C23CD8C6B00E4C9E7 /* HHCase2ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHCase2ViewController.h; sourceTree = "<group>"; };
+		64989C9D23CD8C6B00E4C9E7 /* HHCase2ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHCase2ViewController.m; sourceTree = "<group>"; };
+		64989C9E23CD8C6B00E4C9E7 /* HHCase2ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HHCase2ViewController.xib; sourceTree = "<group>"; };
 		9FD6FA2148068D2E4728DACE /* Pods-MosonryDemos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MosonryDemos.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MosonryDemos/Pods-MosonryDemos.debug.xcconfig"; sourceTree = "<group>"; };
 		A313457ADFC609E9993A81AB /* libPods-MosonryDemos.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MosonryDemos.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBFD214EF6483B34A4B8EE6F /* Pods-MosonryDemos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MosonryDemos.release.xcconfig"; path = "Pods/Target Support Files/Pods-MosonryDemos/Pods-MosonryDemos.release.xcconfig"; sourceTree = "<group>"; };
@@ -134,6 +139,9 @@
 			children = (
 				646955DB23B5A509001473A1 /* HHCase1ViewController.h */,
 				646955DC23B5A509001473A1 /* HHCase1ViewController.m */,
+				64989C9C23CD8C6B00E4C9E7 /* HHCase2ViewController.h */,
+				64989C9D23CD8C6B00E4C9E7 /* HHCase2ViewController.m */,
+				64989C9E23CD8C6B00E4C9E7 /* HHCase2ViewController.xib */,
 			);
 			path = Masonry;
 			sourceTree = "<group>";
@@ -208,6 +216,7 @@
 				646955C523B49C2A001473A1 /* LaunchScreen.storyboard in Resources */,
 				646955C223B49C2A001473A1 /* Assets.xcassets in Resources */,
 				646955C023B49C29001473A1 /* Main.storyboard in Resources */,
+				64989CA023CD8C6B00E4C9E7 /* HHCase2ViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +255,7 @@
 				646955C823B49C2A001473A1 /* main.m in Sources */,
 				646955D323B5A204001473A1 /* HHViewBriefController.m in Sources */,
 				646955BA23B49C29001473A1 /* AppDelegate.m in Sources */,
+				64989C9F23CD8C6B00E4C9E7 /* HHCase2ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
