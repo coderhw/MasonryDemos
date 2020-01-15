@@ -14,6 +14,7 @@
 #import "HHCase1ViewController.h"
 #import "HHCase2ViewController.h"
 #import "HHCase3ViewController.h"
+#import "HHCase4ViewController.h"
 
 @interface HHMainViewController ()<UITableViewDelegate, UITableViewDataSource>
 
@@ -96,14 +97,16 @@
             break;
         case 2:
         {
-            HHCase3ViewController *case2VC = [[HHCase3ViewController alloc]
+            HHCase3ViewController *case3VC = [[HHCase3ViewController alloc]
                                               initWithNibName:@"HHCase3ViewController" bundle:nil];
-            [self.navigationController pushViewController:case2VC animated:YES];
+            [self.navigationController pushViewController:case3VC animated:YES];
         }
             break;
         case 3:
         {
-            
+            HHCase4ViewController *case4VC = [[HHCase4ViewController alloc]
+                                              initWithNibName:@"HHCase4ViewController" bundle:nil];
+            [self.navigationController pushViewController:case4VC animated:YES];
         }
             break;
         default:
