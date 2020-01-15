@@ -13,6 +13,7 @@
 //VC
 #import "HHCase1ViewController.h"
 #import "HHCase2ViewController.h"
+#import "HHCase3ViewController.h"
 
 @interface HHMainViewController ()<UITableViewDelegate, UITableViewDataSource>
 
@@ -79,8 +80,36 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     
-    HHCase1ViewController *case1VC = [[HHCase1ViewController alloc] init];
-    [self.navigationController pushViewController:case1VC animated:YES];
+    switch (indexPath.row) {
+        case 0:
+        {
+            HHCase1ViewController *case1VC = [[HHCase1ViewController alloc] init];
+            [self.navigationController pushViewController:case1VC animated:YES];
+        }
+            break;
+        case 1:
+        {
+            HHCase2ViewController *case2VC = [[HHCase2ViewController alloc]
+                                              initWithNibName:@"HHCase2ViewController" bundle:nil];
+            [self.navigationController pushViewController:case2VC animated:YES];
+        }
+            break;
+        case 2:
+        {
+            HHCase3ViewController *case2VC = [[HHCase3ViewController alloc]
+                                              initWithNibName:@"HHCase3ViewController" bundle:nil];
+            [self.navigationController pushViewController:case2VC animated:YES];
+        }
+            break;
+        case 3:
+        {
+            
+        }
+            break;
+        default:
+            break;
+    }
+    
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
