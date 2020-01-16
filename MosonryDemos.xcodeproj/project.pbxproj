@@ -28,6 +28,11 @@
 		64989CB523CF137400E4C9E7 /* HHBookModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 64989CB423CF137400E4C9E7 /* HHBookModel.m */; };
 		64989CBB23CF179C00E4C9E7 /* HHCase5ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64989CB923CF179C00E4C9E7 /* HHCase5ViewController.m */; };
 		64989CBC23CF179C00E4C9E7 /* HHCase5ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64989CBA23CF179C00E4C9E7 /* HHCase5ViewController.xib */; };
+		64989CC023D041A500E4C9E7 /* HHCase6ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64989CBE23D041A500E4C9E7 /* HHCase6ViewController.m */; };
+		64989CC123D041A500E4C9E7 /* HHCase6ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64989CBF23D041A500E4C9E7 /* HHCase6ViewController.xib */; };
+		64989CC523D0453200E4C9E7 /* HHCase6ItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64989CC423D0453200E4C9E7 /* HHCase6ItemView.m */; };
+		64989CC923D04B1A00E4C9E7 /* HHCase7ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64989CC723D04B1A00E4C9E7 /* HHCase7ViewController.m */; };
+		64989CCA23D04B1A00E4C9E7 /* HHCase7ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64989CC823D04B1A00E4C9E7 /* HHCase7ViewController.xib */; };
 		6CE1E36320F8B024034A650B /* libPods-MosonryDemos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A313457ADFC609E9993A81AB /* libPods-MosonryDemos.a */; };
 /* End PBXBuildFile section */
 
@@ -67,6 +72,14 @@
 		64989CB823CF179C00E4C9E7 /* HHCase5ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHCase5ViewController.h; sourceTree = "<group>"; };
 		64989CB923CF179C00E4C9E7 /* HHCase5ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHCase5ViewController.m; sourceTree = "<group>"; };
 		64989CBA23CF179C00E4C9E7 /* HHCase5ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HHCase5ViewController.xib; sourceTree = "<group>"; };
+		64989CBD23D041A500E4C9E7 /* HHCase6ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHCase6ViewController.h; sourceTree = "<group>"; };
+		64989CBE23D041A500E4C9E7 /* HHCase6ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHCase6ViewController.m; sourceTree = "<group>"; };
+		64989CBF23D041A500E4C9E7 /* HHCase6ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HHCase6ViewController.xib; sourceTree = "<group>"; };
+		64989CC323D0453200E4C9E7 /* HHCase6ItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHCase6ItemView.h; sourceTree = "<group>"; };
+		64989CC423D0453200E4C9E7 /* HHCase6ItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHCase6ItemView.m; sourceTree = "<group>"; };
+		64989CC623D04B1A00E4C9E7 /* HHCase7ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHCase7ViewController.h; sourceTree = "<group>"; };
+		64989CC723D04B1A00E4C9E7 /* HHCase7ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHCase7ViewController.m; sourceTree = "<group>"; };
+		64989CC823D04B1A00E4C9E7 /* HHCase7ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HHCase7ViewController.xib; sourceTree = "<group>"; };
 		9FD6FA2148068D2E4728DACE /* Pods-MosonryDemos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MosonryDemos.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MosonryDemos/Pods-MosonryDemos.debug.xcconfig"; sourceTree = "<group>"; };
 		A313457ADFC609E9993A81AB /* libPods-MosonryDemos.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MosonryDemos.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBFD214EF6483B34A4B8EE6F /* Pods-MosonryDemos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MosonryDemos.release.xcconfig"; path = "Pods/Target Support Files/Pods-MosonryDemos/Pods-MosonryDemos.release.xcconfig"; sourceTree = "<group>"; };
@@ -115,10 +128,6 @@
 			children = (
 				646955B823B49C29001473A1 /* AppDelegate.h */,
 				646955B923B49C29001473A1 /* AppDelegate.m */,
-				646955BB23B49C29001473A1 /* HHMainViewController.h */,
-				646955BC23B49C29001473A1 /* HHMainViewController.m */,
-				646955D123B5A204001473A1 /* HHViewBriefController.h */,
-				646955D223B5A204001473A1 /* HHViewBriefController.m */,
 				64989CB623CF170C00E4C9E7 /* Demos */,
 				646955BE23B49C29001473A1 /* Main.storyboard */,
 				646955C123B49C2A001473A1 /* Assets.xcassets */,
@@ -141,6 +150,10 @@
 		646955D923B5A4E7001473A1 /* VIewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				646955BB23B49C29001473A1 /* HHMainViewController.h */,
+				646955BC23B49C29001473A1 /* HHMainViewController.m */,
+				646955D123B5A204001473A1 /* HHViewBriefController.h */,
+				646955D223B5A204001473A1 /* HHViewBriefController.m */,
 				646955DA23B5A4F0001473A1 /* Masonry */,
 			);
 			path = VIewControllers;
@@ -163,6 +176,12 @@
 				64989CB823CF179C00E4C9E7 /* HHCase5ViewController.h */,
 				64989CB923CF179C00E4C9E7 /* HHCase5ViewController.m */,
 				64989CBA23CF179C00E4C9E7 /* HHCase5ViewController.xib */,
+				64989CBD23D041A500E4C9E7 /* HHCase6ViewController.h */,
+				64989CBE23D041A500E4C9E7 /* HHCase6ViewController.m */,
+				64989CBF23D041A500E4C9E7 /* HHCase6ViewController.xib */,
+				64989CC623D04B1A00E4C9E7 /* HHCase7ViewController.h */,
+				64989CC723D04B1A00E4C9E7 /* HHCase7ViewController.m */,
+				64989CC823D04B1A00E4C9E7 /* HHCase7ViewController.xib */,
 				64989CB223CF136300E4C9E7 /* Model */,
 				64989CAB23CF12AB00E4C9E7 /* Views */,
 			);
@@ -172,6 +191,7 @@
 		64989CAB23CF12AB00E4C9E7 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				64989CC223D0452000E4C9E7 /* UIViews */,
 				64989CAC23CF12B700E4C9E7 /* Cells */,
 			);
 			path = Views;
@@ -213,6 +233,15 @@
 				646955CF23B4ACF1001473A1 /* HHContentCell.m */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		64989CC223D0452000E4C9E7 /* UIViews */ = {
+			isa = PBXGroup;
+			children = (
+				64989CC323D0453200E4C9E7 /* HHCase6ItemView.h */,
+				64989CC423D0453200E4C9E7 /* HHCase6ItemView.m */,
+			);
+			path = UIViews;
 			sourceTree = "<group>";
 		};
 		7941661233BF2837924B61F7 /* Pods */ = {
@@ -282,10 +311,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64989CCA23D04B1A00E4C9E7 /* HHCase7ViewController.xib in Resources */,
 				646955C523B49C2A001473A1 /* LaunchScreen.storyboard in Resources */,
 				64989CAA23CF12A600E4C9E7 /* HHCase4ViewController.xib in Resources */,
 				64989CBC23CF179C00E4C9E7 /* HHCase5ViewController.xib in Resources */,
 				646955C223B49C2A001473A1 /* Assets.xcassets in Resources */,
+				64989CC123D041A500E4C9E7 /* HHCase6ViewController.xib in Resources */,
 				646955C023B49C29001473A1 /* Main.storyboard in Resources */,
 				64989CA023CD8C6B00E4C9E7 /* HHCase2ViewController.xib in Resources */,
 				64989CA523CF082000E4C9E7 /* HHCase3ViewController.xib in Resources */,
@@ -325,6 +356,8 @@
 				64989CB523CF137400E4C9E7 /* HHBookModel.m in Sources */,
 				646955BD23B49C29001473A1 /* HHMainViewController.m in Sources */,
 				64989CA923CF12A600E4C9E7 /* HHCase4ViewController.m in Sources */,
+				64989CC923D04B1A00E4C9E7 /* HHCase7ViewController.m in Sources */,
+				64989CC523D0453200E4C9E7 /* HHCase6ItemView.m in Sources */,
 				646955D723B5A30A001473A1 /* HHBaseViewController.m in Sources */,
 				646955D023B4ACF1001473A1 /* HHContentCell.m in Sources */,
 				646955DD23B5A509001473A1 /* HHCase1ViewController.m in Sources */,
@@ -332,6 +365,7 @@
 				64989CB023CF12D900E4C9E7 /* HHXibViewCell.m in Sources */,
 				646955D323B5A204001473A1 /* HHViewBriefController.m in Sources */,
 				646955BA23B49C29001473A1 /* AppDelegate.m in Sources */,
+				64989CC023D041A500E4C9E7 /* HHCase6ViewController.m in Sources */,
 				64989C9F23CD8C6B00E4C9E7 /* HHCase2ViewController.m in Sources */,
 				64989CA423CF082000E4C9E7 /* HHCase3ViewController.m in Sources */,
 			);

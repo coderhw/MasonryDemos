@@ -15,7 +15,9 @@
 #import "HHCase2ViewController.h"
 #import "HHCase3ViewController.h"
 #import "HHCase4ViewController.h"
-
+#import "HHCase5ViewController.h"
+#import "HHCase6ViewController.h"
+#import "HHCase7ViewController.h"
 @interface HHMainViewController ()<UITableViewDelegate, UITableViewDataSource>
 
 @property (nonatomic, strong) UITableView *tableView;
@@ -106,6 +108,27 @@
         {
             HHCase4ViewController *case4VC = [[HHCase4ViewController alloc]
                                               initWithNibName:@"HHCase4ViewController" bundle:nil];
+            [self.navigationController pushViewController:case4VC animated:YES];
+        }
+            break;
+        case 4:
+        {
+            HHCase5ViewController *case4VC = [[HHCase5ViewController alloc]
+                                              initWithNibName:@"HHCase5ViewController" bundle:nil];
+            [self.navigationController pushViewController:case4VC animated:YES];
+        }
+            break;
+        case 5:
+        {
+            HHCase6ViewController *case4VC = [[HHCase6ViewController alloc]
+                                              initWithNibName:@"HHCase6ViewController" bundle:nil];
+            [self.navigationController pushViewController:case4VC animated:YES];
+        }
+            break;
+        case 6:
+        {
+            HHCase7ViewController *case4VC = [[HHCase7ViewController alloc]
+                                              initWithNibName:@"HHCase7ViewController" bundle:nil];
             [self.navigationController pushViewController:case4VC animated:YES];
         }
             break;
